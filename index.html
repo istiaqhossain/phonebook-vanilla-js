@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phonebook Vanilla Js</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container text-center">
+		<h1>Phonebook</h1>
+		<a href="javascript:void(0);" class="btn addContact">Add Contact</a>
+		<div class="before_contact_listing">
+			<div class="number_select">
+				Show 
+				<select class="show_number" name="number">
+					<option value="2">2</option>
+					<option value="5">5</option>
+					<option value="8">8</option>
+					<option value="10">10</option>
+				</select>
+			</div>
+		</div>
+		<div class="contact_listing">
+			<ul class="list_head">
+				<li>First Name</li>
+				<li>Last Name</li>
+				<li>Address</li>
+				<li>Phone Number</li>
+				<li>Created At</li>
+				<li>Action</li>
+			</ul>
+			<ul class="list_body">
+			</ul>
+		</div>
+		<div class="after_contact_listing">
+			<div class="count_wrapper">
+				Showing <span class="start_count">0</span> to <span class="end_count">0</span> of <span class="count">0</span> entries
+			</div>
+			<div class="listing_pagination">
+			</div>
+		</div>
+	</div>
+
+	<div class="popup-container">
+		<div class="popup-wrapper text-center">
+			<a href="javascript:void(0);" class="popup-close">
+				<img src="img/close.png" />
+			</a>
+			<div class="form-item">
+				<label for="first_name">First Name</label>
+				<input id="first_name" type="text" name="first_name">
+			</div>
+			<div class="form-item">
+				<label for="last_name">Last Name</label>
+				<input id="last_name" type="text" name="last_name">
+			</div>
+			<div class="form-item">
+				<label for="address">Address</label>
+				<input id="address" type="text" name="address">
+			</div>
+			<div class="form-item">
+				<label for="phone_number">Phone Number</label>
+				<input id="phone_number" type="text" name="phone_number">
+			</div>
+			<a href="javascript:void(0);" class="btn saveContact">Save Contact</a>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
