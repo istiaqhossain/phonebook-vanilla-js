@@ -1,1 +1,5 @@
-# phonebook-vanilla-js
+# Phonebook - Vanilla JavaScript
+
+## Features ##
+
+* 
